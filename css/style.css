@@ -416,18 +416,31 @@ main .conteiner{
 
     .resulCurso .division-numbers p{
         margin-top: 17px;
+    }
 
+    .boxForm form input,.boxForm form select{
+        width: 95%;
+    }
 
-
-
+    .logo a{
+        display: none;
     }
 
     main .conteiner .main-text h1{
         font-size: 3rem;
     }
 
+    main{
+        margin: none;
+        padding: none;
+        justify-content: none;
+    }
+
     
 
+    .main-img{
+        width: 100%;
+    }
     .difeCursos .curso img{
         width: 70%;
     }
