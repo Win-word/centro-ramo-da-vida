@@ -320,10 +320,7 @@ main .conteiner{
             margin: 20px 0px;
         }
 
-        .main ,.conteiner{
-            flex-direction: column;
-        }
-
+        
         .ul.active{
             left: 0%;
         }
@@ -332,12 +329,9 @@ main .conteiner{
             width: 70%;
         }
 
-        main .conteiner .main-text{
-            text-align: center;
-        }
-        main .conteiner .main-text div{
-            justify-content: center;
-        }
+        
+        
+        
         main .conteiner .main-text h1{
             font-size: 4rem;
         }
@@ -369,6 +363,18 @@ main .conteiner{
     .difeCursos .conteiner{
         flex-direction: column;
     }
+
+    main .conteiner .main-text div{
+        justify-content: center;
+    }
+    .main ,.conteiner{
+        flex-direction: column;
+    }
+
+    main .conteiner .main-text{
+        text-align: center;
+    }
+
     .difeCursos .curso{
         width: 100%;
         text-align: center;
@@ -399,6 +405,11 @@ main .conteiner{
         display: none;
     }
 
+    .conteiner{
+        padding: 0 2%;
+        margin: 0 0px;
+    }
+
 
 
 
@@ -409,7 +420,18 @@ main .conteiner{
     .difeCursos .conteiner{
         flex-direction: column;
     }
+@media (max-width: 560px){
+    .main-text div img{
+        display: none;
+    }
 
+    main .main-text{
+        padding: 0%;
+        margin: 0%;
+        align-items: initial;
+        text-align: left;
+    }
+}
 
 @media (max-width: 455px) {
 
