@@ -130,6 +130,12 @@ main .conteiner{
 
 }
 
+.main-text div img{
+    width: 120px;
+    height: 50px;
+
+}
+
 .main-img{
     width: 50%;
 
@@ -141,6 +147,17 @@ main .conteiner{
 }
 
 
+
+
+
+section button{
+    padding: 15px 4px;
+    margin: 0 5%;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #ff5c00;
+}
 /*menu icon */
 
 .menu-icon{
@@ -245,6 +262,8 @@ main .conteiner{
     margin-top: 10px;
 }
 
+
+
 /* style section more curses index */
 
 .difeCursos .conteiner{
@@ -286,12 +305,108 @@ main .conteiner{
 /* and style mure curses */
 
 
+/* style section imagem about graduection */
+
+
+section .conteiner{
+    display: flex;
+}
+
+.grad{
+    background-color: #0f324066;
+}
+section .conteiner .img-grad img{
+    width: 100%;
+}
+
+
+
+
+section .conteiner .img-grad,section .conteiner .box-text-grad{
+    width: 50%;
+    
+}
+
+section .conteiner .box-text-grad{
+    
+    
+    padding: 10px 10px;
+    color: white;
+}
+
+section .conteiner .box-text-grad h1{
+    
+    font-size: 35px;
+    color: rgb(255, 131, 7);
+}
+
+section .conteiner .box-text-grad p{
+    
+    font-size: 20px;
+    padding: 0px 0px;
+
+}
+
+/* and section about graduection  */
+
+
+
+
+/* style section and */
+
+
+.sc-and{
+    background-color: #0f3240;
+}
+.sc-and .conteiner{
+    display: flex;
+    justify-content: space-between;
+
+}
+.sc-and .conteiner div{
+    margin: 15px 0px;
+    
+
+}
+
+.sc-and .ul-social{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    padding: 0px 10%;
+}
+
+.sc-and .ul-social img{
+    width: 50px;
+    padding: 10px;
+}
+.sc-and p a{
+    color: red;
+}
+.sc-and h2, .sc-and p{
+    color: white;
+    padding: 0px 5%;
+}
+
+
+.sc-and .conteiner li{
+    margin-top: 10px;
+}
+
+/* and style section  and */
+
+
 
 
 
 /*responsivo*/
 
 @media (max-width: 960px){
+    
+
+    section .conteiner .box-text-grad h1{
+        font-size: 30px;
+    }
     
 
         .menu-icon{
@@ -360,6 +475,14 @@ main .conteiner{
 
 
 @media (max-width: 790px){
+
+    section .conteiner .img-grad{
+        width: 100%;
+    }
+
+    section .conteiner .box-text-grad p{
+        padding: 0px 0px;
+    }
     .difeCursos .conteiner{
         flex-direction: column;
     }
@@ -387,6 +510,12 @@ main .conteiner{
     .difeCursos .curso:hover{
         box-shadow: 0px 10px 50px 5px #184f6d77;
     }
+
+    .sc-and .conteiner{
+        text-align: center;
+    
+    }
+    
 }
 
 
@@ -420,6 +549,8 @@ main .conteiner{
     .difeCursos .conteiner{
         flex-direction: column;
     }
+
+}
 @media (max-width: 560px){
     .main-text div img{
         display: none;
@@ -431,12 +562,38 @@ main .conteiner{
         align-items: initial;
         text-align: left;
     }
+    section .conteiner .box-text-grad p{
+        font-size: 16px;
+        padding: 0px 0px;
+    }
+
+    section .conteiner .box-text-grad h1{
+        font-size: 25px;
+    }
+
+    section .conteiner .img-grad{
+        width: 100%;
+    }
+
 }
 
 @media (max-width: 455px) {
 
     .resulCurso .division-numbers{
         flex-direction: column;
+    }
+
+    section .conteiner .img-grad{
+        width: 100%;
+    }
+
+    section .conteiner .box-text-grad h1{
+        font-size: 25px;
+    }
+
+    section .conteiner .box-text-grad p{
+        font-size: 16px;
+        padding: 0px 0px;
     }
 
     .resulCurso .division-numbers p{
@@ -450,7 +607,8 @@ main .conteiner{
     
 
     main .conteiner .main-text h1{
-        font-size: 3rem;
+        font-size: 25px;
+        
     }
 
     main{
